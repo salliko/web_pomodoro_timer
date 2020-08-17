@@ -2,14 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <link rel="stylesheet" href="main.css">
     <title>Easy Timer Pomodoro</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+<!--    <link rel="stylesheet" href="styles/skeleton.css">-->
+    <link rel="stylesheet" href="styles/custom.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
-    <div id="app">
-        {{ msg }}
+
+    <div class="section count-complete-pomodoro">
+        <div class="container">
+            <div class="tomato green"></div>
+            <div class="tomato green"></div>
+            <div class="tomato green"></div>
+            <div class="tomato green"></div>
+
+            <div class="tomato green"></div>
+            <div class="tomato green"></div>
+            <div class="tomato green"></div>
+            <div class="tomato green"></div>
+        </div>
     </div>
+
+    <div class="section clock">
+        <div>
+            <span>25:00</span>
+        </div>
+    </div>
+
+    <div class="section btn-play">
+        <button>play</button>
+    </div>
+
+    <div class="section btn-stop">
+        <button>stop</button>
+    </div>
+
+    <div class="section info">
+        <span>Поддержать/Прислать идею для развития.</span>
+        <span>Создан: Гребенников Илья Юрьевич</span>
+    </div>
+
     <script src="main.js"></script>
 </body>
 </html>

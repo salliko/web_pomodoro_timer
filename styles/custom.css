@@ -1,0 +1,28 @@
+.green {
+    background-color: #42b983;
+}
+
+.red {
+    background-color: #d63200;
+}
+
+.tomato {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.container {
+    display: inline-flex;
+    width: 100%;
+}
+
+.section {
+    width: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    color: #304455;
+    background-color: #fff;
+}
